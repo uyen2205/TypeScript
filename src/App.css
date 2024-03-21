@@ -1,0 +1,33 @@
+#root ul {
+  background: #dcc6d2;
+  list-style-type: none;
+  text-align: center;
+}
+#root li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 4px;
+  text-decoration: none;
+}
+#root li :hover {
+  background: #efadad;
+  color: #965050;
+}
+#root a {
+  text-decoration: none;
+  color: #0d0404;
+  display: block;
+}
+.content {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  background-color: #dcc6d2;
+  height: 80px;
+  padding-top: 40px;
+}
