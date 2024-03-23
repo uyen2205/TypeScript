@@ -1,0 +1,23 @@
+.login {
+  text-align: center;
+  margin-top: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 35%;
+}
+input {
+  width: 100%;
+  color: rgb(21, 13, 13);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn {
+  margin-top: 20px;
+}

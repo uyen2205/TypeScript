@@ -1,11 +1,9 @@
-
 import ProductList from "~/components/ProductList";
-
 
 const Home = () => {
   return (
     <>
-      <h1>San pham ban chay:</h1>
+      <h1 className="sp">San pham ban chay:</h1>
       <ProductList />
     </>
   );

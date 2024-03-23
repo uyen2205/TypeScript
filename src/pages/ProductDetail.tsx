@@ -18,11 +18,14 @@ const ProductDetail = (props: Props) => {
     getProduct();
   }, []);
   return (
-    <div>
-      <h2>{product?.title}</h2>
+    <div className="ct">
+      <h1>Sản phẩm chi tiết</h1>
       <img src={product?.thumbnail} alt={product?.title} />
-      <p>Gia: {product?.price}</p>
-      <p>Mo ta: {product?.description}</p>
+      <div className="mt">
+        <h2>{product?.title}</h2>
+        <p>Gia: {product?.price}</p>
+        <p>Mo ta: {product?.description}</p>
+      </div>
     </div>
   );
 };
